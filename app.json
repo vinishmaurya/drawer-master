@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Yojus",
+    "slug": "Yojus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Logo/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ashwani197.Yojus"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
