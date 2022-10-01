@@ -28,7 +28,7 @@ const Content = ({navigation}) => {
 
 
     </View >);
-const Action=(<Text>ffffff</Text>)
+const Action=<Text style={{color:'red'}}>ffffff</Text>
   return (
     // <ScrollView>
     <>
