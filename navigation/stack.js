@@ -33,7 +33,7 @@ const StackNavigation = ({ navigation }) => {
         <>
             <StatusBar style="dark" />
             <Stack.Navigator screenOptions={{ headerStyle: { backgroundColor: '#FFF', }, headerTintColor: 'white', }}>
-                {/* <Stack.Screen name='LoginEmail' component={LoginEmail} options={{
+                <Stack.Screen name='LoginEmail' component={LoginEmail} options={{
                     title: 'Yojus',
 
                     headerTintColor: colors.colors.blue, headerTitleAlign: 'center', headerLargeTitle: true, headerTitleStyle: {
@@ -83,7 +83,7 @@ const StackNavigation = ({ navigation }) => {
                             </View>
                         )
                     },
-                }} /> */}
+                }} />
                 <Stack.Screen name='Dashboard' component={Dashboard} options={{
                     title: 'Yojus', headerTintColor: colors.colors.blue, headerTitleAlign: 'center', headerLargeTitle: true, headerTitleStyle: { fontSize: 25 },
                     headerRight: () => {
