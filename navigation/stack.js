@@ -11,7 +11,7 @@ import timetable from '../Screen/timetable'
 import StudentDiary from '../Screen/StudentDiary'
 import ENotice from '../Screen/ENotice'
 import Competition from '../Screen/Competition'
-import digitalContent from '../Screen/ENotice'
+import digitalContent from '../Screen/digitalContent'
 import FeePay from '../Screen/FeePay'
 import Dashbord from '../navigation/drawer'
 import { colors } from '../Component/color';
@@ -33,7 +33,7 @@ const StackNavigation = ({ navigation }) => {
         <>
             <StatusBar style="dark" />
             <Stack.Navigator screenOptions={{ headerStyle: { backgroundColor: '#FFF', }, headerTintColor: 'white', }}>
-                <Stack.Screen name='LoginEmail' component={LoginEmail} options={{
+                {/* <Stack.Screen name='LoginEmail' component={LoginEmail} options={{
                     title: 'Yojus',
 
                     headerTintColor: colors.colors.blue, headerTitleAlign: 'center', headerLargeTitle: true, headerTitleStyle: {
@@ -48,7 +48,6 @@ const StackNavigation = ({ navigation }) => {
                                     source={require('../assets/Logo/yojus.png')}
                                     resizeMode='contain'
                                 />
-                                {/* <Text>wwwwa</Text> */}
                             </View>
                         )
                     },
@@ -66,7 +65,6 @@ const StackNavigation = ({ navigation }) => {
                                     source={require('../assets/Logo/yojus.png')}
                                     resizeMode='contain'
                                 />
-                                {/* <Text>wwwwa</Text> */}
                             </View>
                         )
                     },
@@ -82,11 +80,10 @@ const StackNavigation = ({ navigation }) => {
                                     source={require('../assets/Logo/yojus.png')}
                                     resizeMode='contain'
                                 />
-                                {/* <Text>wwwwa</Text> */}
                             </View>
                         )
                     },
-                }} />
+                }} /> */}
                 <Stack.Screen name='Dashboard' component={Dashboard} options={{
                     title: 'Yojus', headerTintColor: colors.colors.blue, headerTitleAlign: 'center', headerLargeTitle: true, headerTitleStyle: { fontSize: 25 },
                     headerRight: () => {
